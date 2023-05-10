@@ -19,7 +19,7 @@ To create the project, open Vivado and run the command "source design_1.tcl". On
 
 For VGA output, you can use a PMOD VGA adapter. We have used [this one](https://digilent.com/shop/pmod-vga-video-graphics-array/) by Digilent. Connect the PMOD VGA to the PMOD 3-4. The command buttons are mapped in the PMOD 1 [5-6-7-8] and the Switch pins are mapped in PMOD 1 [1-2-3-4].
 
-Before loading the bitstream, make sure that pin 2 of PMOD 2 is set to +3.3V to activate VGA in PAL double scanline compatible mode.
+Before loading the bitstream, make sure that pin 4 of PMOD 1 is set to +3.3V to activate VGA in PAL double scanline compatible mode.
 
 To enable the KR260 to upload the bitstream, run the following commands via XSCT:
 - connect
